@@ -26,5 +26,34 @@ public class Main {
 		
 		System.out.println(studentFirstName + " " + 
 				studentLastName + " has a GPA of " + studentGPA);
+		
+		System.out.println("**************************************");
+		
+		Triangle triangleA = new Triangle(15, 8, 15, 8, 17);
+		Triangle triangleB = new Triangle(3, 2.598, 3, 3, 3);
+		
+		double triangleAArea = triangleA.findArea();
+//		System.out.println(triangleAArea);
+		
+		double triangleBArea = triangleB.findArea();
+//		System.out.println(triangleBArea);
+//		
+//		System.out.println(triangleA.sideLenThree);
+//		System.out.println(triangleA.base);
+//		
+//		System.out.println(Triangle.numOfSides);
+		
+		Student studentA = new Student("Tomohiro", "Yoshida", 2021, 4.2, "WMDD");
+		
+		System.out.println(studentA.firstName);
+		System.out.println(studentA.lastName);
+		System.out.println(studentA.graduateYear);
+		System.out.println(studentA.gpa);
+		System.out.println(studentA.major);
+		
+		studentA.incrementGraduateYear();
+		
+		System.out.println(studentA.graduateYear);
 	}
+
 }

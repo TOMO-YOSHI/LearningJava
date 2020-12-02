@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.awt.Rectangle;
 
 public class Main {
 	public static void main(String[] args) {
@@ -54,6 +55,8 @@ public class Main {
 		studentA.incrementGraduateYear();
 		
 		System.out.println(studentA.graduateYear);
+		
+		System.out.println(new Rectangle());
 	}
 
 }
